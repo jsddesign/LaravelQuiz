@@ -29,7 +29,11 @@ class HomeController extends Controller
     public function index()
     {
         $cont = DB::select('select * from content');
-        return view('home', ['cont'=>$cont]);
+        if($cont){
+            return view('home', ['cont'=>$cont]);
+        } else {
+            return view('homeempty');
+        }
     }
 
     public function quiz()
