@@ -1,6 +1,6 @@
 <h2>Laravel simple Quiz questionnaire project</h2>
 <p>This is a simple Laravel quiz project with admin panel.<br>
-To take the quiz, visitor will choose the category then start a quiz to answer the questions
+To take the quiz, visitor can choose the category then start a quiz to answer the questions
 within 5 minutes. On the end the results page will be shown.</p>
 
 <p>In admin panel, there is a several sections for content edit in Intro page, then 
